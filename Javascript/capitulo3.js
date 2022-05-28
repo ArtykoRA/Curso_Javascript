@@ -1,0 +1,8 @@
+// alert("saldr yo????????????????????    sí y además te cargas lo primero d todo");
+
+var nombreautor="juan", puntuacion=390; $yotrmas=34;
+
+alert(nombreautor);
+
+
+alert(puntuacion + 350);
