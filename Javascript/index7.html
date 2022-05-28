@@ -23,9 +23,62 @@
             <h1>jugando con los arrays</h1>
          
                 <script>
-                        document.write(" <p>  El primer articulo es <strong>" + articulos[1] + " </strong>     saludos </p>" )
+                        document.write(" <p>  El primer articulo es <strong>" + articulos[0] + " </strong>     saludos </p>" )
 
                         document.write(" La cantidad de artículos es : " + articulos.length);
+
+                        //nuevo del curso 8  //lode abrir y cerrar p da igual (?)
+
+                        document.write(articulos[0]); 
+                        // y si no sabes la ultima posicion=>
+                        document.write("y ahora lo mismo con length: " +articulos [articulos.length-1] );
+
+                        articulos.unshift("pie");
+                        document.write("<br> y ahora el primer artículo es : " + articulos[0]);
+                        document.write("<br>venga vamos a poner algo más al final: ");
+                        var elementoalfinal = prompt("dime que añado por favor");
+                        articulos.push(elementoalfinal);
+
+                        document.write("<strong>" + articulos [articulos.length-1]+ "<strong>.");
+
+                        // lo mismo sin variable:
+
+                        articulos.push(prompt("La ulti y nos vamos: "));
+                        document.write("<br><strong> Ahora si de verdad la última es :  " + articulos [articulos.length-1]+ "<strong>.");
+
+                        document.write("<br>  Y ahora la Longitud del array es: " + articulos.length);
+                        document.write("<br>  A borrar con .shift el primero");
+                        document.write("<br>"+ articulos[0]);
+                        document.write("<br>"+ articulos[1]);
+                        document.write("<br>"+ articulos[2]);
+                        document.write("<br>"+ articulos[3]);
+                        document.write("<br>"+ articulos[4]);
+                        document.write("<br>"+ articulos[4]);
+                        document.write("<br>"+ articulos[6]);
+
+                        //eliminar elementos: el primero
+                        articulos.shift();
+                        document.write("<br>  Y ahora la Longitud del array es: " + articulos.length + " y el primero es :" + articulos[0]);
+                        document.write("<br>"+ articulos[0]);
+                        document.write("<br>"+ articulos[1]);
+                        document.write("<br>"+ articulos[2]);
+                        document.write("<br>"+ articulos[3]);
+                        document.write("<br>"+ articulos[4]);
+                        document.write("<br>"+ articulos[4]);
+                        document.write("<br>"+ articulos[6]);
+                        // eliminar el último pop()
+                        document.write("<br>  A borrar con .pop el último");
+                        articulos.pop();
+                        document.write("<br>  Y ahora la Longitud del array es: " + articulos.length + " y el último es :" + articulos[articulos.lentgh-1]);
+                        document.write("<br>"+ articulos[0]);
+                        document.write("<br>"+ articulos[1]);
+                        document.write("<br>"+ articulos[2]);
+                        document.write("<br>"+ articulos[3]);
+                        document.write("<br>"+ articulos[4]);
+                        document.write("<br>"+ articulos[4]);
+                        document.write("<br>"+ articulos[6]);
+
+
 
                 </script>
 
