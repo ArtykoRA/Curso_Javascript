@@ -1,0 +1,32 @@
+Anda pues funciona!!!
+
+PILDORASINFORMATICAS
+
+25/5/2022
+
+Empiezo curso de Javascript  web lenguaje para un navegador.
+
+jquery libreria libre de javascript.    osea cosas ya hechas.(y testeadas).
+1- presentación,  2- Hola mundo en el body  3- .js en otro archivo. ventana aler es modal, ejecuta en primer plano y no puede minimizar y detienen el flujo de ejecución. 
+el ejemplo del fade no funciona… busco en stack overflow y nada.
+
+4- nombres de las variables etc inicialización en una línea o en varias.
+5- operadores básicos +-*/  el + también une frases. // y comentarios   /* y de más */  Number() pasa a número lo que se pueda pasar.
+
+6- prompt y alert entrada de datos 
+operadores += -= *= /=  ++ –  pedir el nombre  y hacer cuentas con la edad;
+
+7- Arrays  crearlo y acceder a sus posiciones.
+
+8- Lo mismo pero más, añadir al final y al principio   "articulos.shift"   + "articulos.prompt"  
+
+9- POO programación orientada a objetos- "Caracteristicas y capacidades"   -> Propiedades y métodos 
+nomenclatura del punto: nombre del objeto + "." + caracteristica a modificar = al valor que le queremos dar  (the mother of the lamb!!);
+                        nombre del objeto + "." método + "()";
+
+                        alert() funciona sin objeto porque el objeto es "window" y ese siempre está presente, es la ventana en la que estamos; prompt() igual;
+OJO UN FALLO ARRASTRA A TODO LO DE ABAJO!!!!!!!!!!!!!!                             
+
+
+11- Estructuras de control de flujo  "volver hacia arriba" o "saltar abajo"; condicionales y bucles;  
+operadores: ==  != < > <= >=  === !==   (que sean del mismo tipo)  && and || or 
