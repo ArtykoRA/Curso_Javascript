@@ -30,3 +30,8 @@ OJO UN FALLO ARRASTRA A TODO LO DE ABAJO!!!!!!!!!!!!!!
 
 11- Estructuras de control de flujo  "volver hacia arriba" o "saltar abajo"; condicionales y bucles;  
 operadores: ==  != < > <= >=  === !==   (que sean del mismo tipo)  && and || or 
+
+12- else if Y ojo con las mayusculas
+
+13- ToLowerCase() ToUpperCase()    repite el if con !=  y mucho and &&  (colorWeb != "rojo" &&...) creo que paso de hacerlo.
+Y ahora una calculadora...  typeof() te devuelve el tipo de variables
