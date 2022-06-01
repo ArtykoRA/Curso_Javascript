@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La de la tabla</title>
+
+    <style>
+
+        table{
+            margin:auto;
+        }
+    </style>
+</head>
+
+<body id="cuerpo">
+
+    <form name="form1" method="post" action="" id="formulario">
+        <table width="33%" border="3px" id="mitabla">
+            <tr>
+             <td>Nombre</td>
+                <td>
+                 <label for="textfield"></label>
+                    <input type="text" name="textfield" id="textfield">
+                </td>
+            </tr>
+            <tr>
+                <td>apellido</td>
+                   <td>
+                    <label for="textfield"></label>
+                       <input type="text" name="textfield2" id="textfield">
+                   </td>
+            </tr>
+               
+            <tr>
+             <td>Edad:</td>
+                <td>
+                 <label for="textfield"></label>
+                    <input type="text" name="textfield3" id="textfield">
+                </td>
+            </tr>
+            <tr>
+                <td>Carnet</td>
+                   <td>
+                    <label for="textfield"></label>
+                       <input type="text" name="textfield3" id="textfield">
+                   </td>
+            </tr>
+            <td><input type="submit" name="button" id="button" value="Enviar"></td>
+            <td><input type="submit" name="button" id="button2" value="Restablecer"></td>
+
+        </table>
+
+    </form>
+
+    <script>/*
+        var cuerpo = document.getElementById("cuerpo");
+        var colorWeb = prompt("dime que color te gusta más???  azul/verde/rojo???").toLocaleLowerCase();//mejora del 13
+
+        if(colorWeb =="azul")
+        {
+            //alert("que primero  ???" + colorweb);
+            cuerpo.style.backgroundColor = "blue";
+            alert("yahh");
+           //document.write("<br><br><br>"+ colorweb);
+           //colorWeb = "rojo";
+        }
+        else if(colorWeb == "verde")
+        {cuerpo.style.backgroundColor = "green";}
+        
+        else if(colorWeb == "rojo")
+        {cuerpo.style.backgroundColor = "red";}
+
+        else{document.write("Respuesta incorrecta");}
+  */
+    </script>
+
+    <script id="video13 calculadora ">
+        var num1= prompt("dime el primero");
+        var num2 = prompt("ahora el segundo");
+        var operacion = prompt("suma, resta, multi o divide?").toLowerCase();
+       // alert(typeof(num1));
+        num1= parseInt(num1,10);
+        num2= parseInt(num2,10);
+        //alert(typeof(num1));
+        if(operacion == "suma"){
+            document.write("Has elegido "+ operacion + " y el resultado es :" + num1 +"+"+ num2 +" = ");
+            document.write(num1+num2);
+        }
+        else if(operacion == "resta"){
+            document.write("Has elegido "+ operacion + " y el resultado es :" + num1 +"-"+ num2 +" = ");
+            document.write(num1-num2);
+        }
+        else if(operacion == "multi"){
+            document.write("Has elegido "+ operacion + " y el resultado es :" + num1 +"*"+ num2 +" = ");
+            document.write(num1*num2);
+        }
+        else if(operacion == "divide"){
+            document.write("Has elegido "+ operacion + " y el resultado es :" + num1 +"/"+ num2 +" = ");
+            document.write(num1/num2);
+        }
+
+        else  {
+            document.write("lo siento no entiendo lo que has escrito....");
+        }
+
+
+
+
+
+
+    </script>
+</body>
+</html>

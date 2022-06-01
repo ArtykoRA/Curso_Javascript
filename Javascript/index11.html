@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Condicional 1</title>
+    <title>Condicional 1 y ahora 2 también </title>
 </head>
 <body>
     <h1>Vamos con las condicionales, osea el "if"</h1>
@@ -12,18 +12,27 @@
 <script>
 
     var preciomacbook= 1600;
-
     document.write("El jodio cacharro vale" + preciomacbook + " lereles");
     var dineroaemplear = prompt("venga cuanto tienes????");
-
+    var edad = prompt("Dime tu edad, por favor????");
+    
     if(dineroaemplear >= preciomacbook)
-    {document.write("<br>venga píllalo!!!");}
+    {document.write("<br>venga tienes dinero!!!");}
     else{
         document.write("<br>Te toca ahorrar un poco más!!!");
     }
 
+    if(dineroaemplear >= preciomacbook && edad >= 34)
+    {alert("venga lo puedes comprar!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+    document.write("<br><br><br><br><br>venga lo puedes comprar!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");}
+    else {alert("pues te falta algo......")}
 
+    var loteria = prompt("¿te toco la loteria????")
 
+    if(dineroaemplear >= preciomacbook || loteria ==="si" )
+    {
+        alert("Yeahhhhhhhhh to pa ti!!");
+    }
 
 </script>
 
