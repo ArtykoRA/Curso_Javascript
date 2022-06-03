@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bucle While</title>
+
+    <script>
+        var  nombre, edad, poblacion;
+        nombre = prompt("Dime tu nombre, por favor:");
+            while(!isNaN(nombre)){
+                nombre= prompt("dime un nombre con letrasssssss:");
+            }
+        
+        edad = prompt("Ahora la edad, gracias:");
+       /* while(edad<=0 || edad > 110){
+            edad = prompt("Venga no exageres dime la verdad: hg h");
+        }   ahora lo del 16 */
+        while(edad<=0 || edad > 110 || isNaN(edad)){
+            edad = prompt("Venga no exageres dime la verdad: ");
+        }
+        poblacion = prompt("Y tu población:");
+        while(!isNaN(poblacion)){
+                poblacion= prompt("dime un nombre con letrasssssss:");
+            }
+
+    </script>
+
+</head>
+
+<body>
+
+    <!--
+    <H1>Vamos a escribir los meses del año.</H1>
+    
+    <script>
+        var meses = ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"];
+        var contador = 0;
+
+        while (contador <meses.length){
+            document.write("<br>"+meses[contador]);
+            contador++;    
+        }
+        document.write("<br><h1>"+contador+"</h1>");
+    </script>
+    -->
+    <div id="contenedor">
+        <p>Nombre:
+        <script>document.write(" "+ nombre)</script></p>
+        <p>Edad:
+        <script>document.write(" "+ edad)</script></p>
+        <p>Población:
+        <script>document.write(" "+ poblacion)</script></p>
+
+    </div>
+
+
+</body>
+</html>

@@ -35,3 +35,8 @@ operadores: ==  != < > <= >=  === !==   (que sean del mismo tipo)  && and || or
 
 13- ToLowerCase() ToUpperCase()    repite el if con !=  y mucho and &&  (colorWeb != "rojo" &&...) creo que paso de hacerlo.
 Y ahora una calculadora...  typeof() te devuelve el tipo de variables
+
+14-Solucionar entradas mal hechas por el usuario: letras en donde van números;  isNan()
+
+15-Bulces determinados: do Sabes cuantas vueltas va a dar antes de ejecutar  indetermindado While y dowhile no sabes vueltas hasta ejecutar;
+16-verificar tipos de datos isNaN(); 

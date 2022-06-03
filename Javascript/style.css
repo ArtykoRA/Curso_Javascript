@@ -10,6 +10,17 @@ h1{
 }
 
 p{
-    background-color: blue;
-    color: red;
+    background-color: #FFc;
+    color: black;
+    font-size: 2em;
+    
+}
+
+#contenedor{
+    
+    width:25%;
+    background-color: #FFc;
+    margin: auto;
+    padding:15px;
+    margin-top: 5%;
 }
