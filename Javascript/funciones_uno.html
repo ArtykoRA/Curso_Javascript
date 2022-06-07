@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prueba de Funciones</title>
+<script>
+
+
+var nombre = prompt("dime tu nombre por favor?")
+
+
+    function dia_de_hoy(){
+        var hoy = new Date();
+        document.write(hoy.toDateString());
+        document.write(hoy.getHours());
+        document.write(hoy.getMinutes());
+        document.write(hoy.getSeconds());
+
+    }
+
+
+    function horatodoelrato(){
+        var segundo = new Date();
+        document.write(segundo.getSeconds());
+    }
+
+   // var nombre="ppppp";
+
+    function escribenom(nombre){
+        document.write(nombre);
+    }
+
+  
+
+</script>
+
+</head>
+<body class="centrado">
+<h1>¿que día es hoy?</h1>
+    <p>Hoy es dia: <script>dia_de_hoy();</script> </p><br>
+    <br><br><br>
+    <h1><script>horatodoelrato()</script></h1>
+
+    <br><br><br>
+    <p> Y te llamas: <script>escribenom(nombre)</script> </p>
+
+    
+</body>
+</html>

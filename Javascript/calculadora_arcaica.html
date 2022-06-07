@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Arcaica Todo con funciones</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function sumar(num1, num2){
+            alert("La suma es: "+ (num1 + num2));
+        }
+        function resta(num1, num2){
+            alert("La resta es: "+ (num1 - num2));
+        }
+        function multiplicar (num1, num2){
+            alert("La suma es: "+ (num1 * num2));
+        }
+        function dividir(num1, num2){
+            alert("La división es: "+ (num1 / num2));
+        }
+
+        var repetir = "si";
+
+    while (repetir == "si"){
+        calculo();
+        repetir = prompt("Seguimos con otra operación (si/no)??? ");
+
+    }
+
+    function calculo(){
+       
+        var operacion = prompt("Que hacemos????").toLowerCase();
+        var operador1 = parseInt( prompt("Dime el primer número: "),10);
+        var operador2 = parseInt( prompt("Dime el segundo número: "),10);
+ 
+        if(operacion == "sumar"){
+            sumar(operador1,operador2);
+        }
+        else if(operacion =="restar"){
+            resta(operador1,operador2);
+        }
+        else if(operacion =="multiplicar"){
+            multiplicar(operador1,operador2);
+        }
+        else if(operacion =="dividir"){
+            dividir(operador1,operador2);
+        }
+
+    }
+
+    </script>
+</head>
+<body>
+    <h1>Esto es la calculadora!</h1>
+    <script>document.write("operador1 es :"+ operador1 + "<br>"+ "y operador2 es : "+ operador2); </script>
+</body>
+</html>

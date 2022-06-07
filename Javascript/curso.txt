@@ -40,3 +40,7 @@ Y ahora una calculadora...  typeof() te devuelve el tipo de variables
 
 15-Bulces determinados: do Sabes cuantas vueltas va a dar antes de ejecutar  indetermindado While y dowhile no sabes vueltas hasta ejecutar;
 16-verificar tipos de datos isNaN(); 
+Me salto hasta el 21 porque son bucles iguales while, for, paso al 21 Funciones:
+21-Funciones: y funciones con parámetros;
+23- la calculadora;
+24- eventos;

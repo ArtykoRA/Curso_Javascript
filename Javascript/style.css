@@ -1,12 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: blueviolet;
+    background-color: rgb(50, 4, 93);
 }
 
 h1{
     color: aquamarine;
     font-size: xx-large;
+    text-align: center;
 }
 
 p{
