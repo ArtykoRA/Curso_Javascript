@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery agregando contenido</title>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #contenedor{
+            background-color: darkgoldenrod;
+        }
+        .micontenedor{
+            background-color: aquamarine;
+        }
+    </style>
+    <script>/*
+        $(document).ready(function(){
+            alert($("#errores").html());
+            //alert($("#contenedor").html());
+            $("#errores").html("<p> Aquí cambira el texto por este</p>");
+            $("#errores").append("<p> y añade otra linea? o div?</p>");
+            $("#errores").append("<div> <p>Añade lo que le pongas!   ...pero no manipula comillas...</div></p>");
+            $("#errores").prepend("<p> Y más cositas... pero antes</p>");
+            $("#errores").after("<p> Y más cositas... con after</p>");
+            $("#errores").before("<p> Y más cositas... con before</p>");
+            $("#contenedor").after("<p> Y más cositas... con after   fuera de los divs</p>");
+           // $("#errores p").text("otracosamas");  // este lo cambia todo porque todos tienen etiqueta p que es la elegida
+
+        });*/
+            //segundo ejemplo
+            function validarusuario(){
+                var n_usuario=document.getElementById("usuario").value;
+                if(n_usuario==""){
+                    $("#usuario").after("Rellena este campo, por favor.");
+                }
+            }
+            function validarapellido(){
+            var ape=document.getElementById("apellido").value;
+            if(ape==""){
+                $("#apellido").after("<h1> Be Nice, dime el apellido</h1>");
+            }
+            }
+
+
+
+
+
+
+
+    </script>   
+
+</head>
+<body>
+
+    <form action="" method="get">
+        <input type="text" name="" id="usuario"><br>
+        <input type="text" name="" id="nombre"><br>
+        <input type="text" name="" id="apellido"><br>
+        <input type="button" name="" id="boton" value="Dale" onclick=" validarapellido(),validarusuario() " >
+
+
+    </form>
+
+
+
+
+  <!--   primera parte
+    <div id="contenedor">
+        <div id="errores" class="micontenedor">
+
+            <h2>Errores</h2>
+        </div>
+
+    </div>
+    -->
+
+    
+
+</body>
+</html>

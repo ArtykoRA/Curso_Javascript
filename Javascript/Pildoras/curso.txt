@@ -44,3 +44,14 @@ Me salto hasta el 21 porque son bucles iguales while, for, paso al 21 Funciones:
 21-Funciones: y funciones con parámetros;
 23- la calculadora;
 24- eventos;
+luego me salto cosas de la calculadora porque no la veo bien ejecutada;
+vamos al 29-30 con jquery; dicde que miremos el curso de selectores de css 
+
+32- funciones jquery: .html() .text() .after() .append()  .prepend() .before() 
+.html()- selecciona y modifca datos html
+.append()- agrega texto al final;
+.prepend()- agrega texto al principio; ambos dentro del elemento;
+.after y before añaden antes y despues del elemento;
+.text()  no maneja etiquetas html;
+
+33- remove()     y replaceWith()

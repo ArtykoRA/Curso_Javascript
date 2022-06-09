@@ -25,3 +25,20 @@ p{
     padding:15px;
     margin-top: 5%;
 }
+
+img{
+    margin-top: 10%;
+    width:23%;
+}
+
+#banner{
+    background-color: #F00;
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    font-size: 36px;
+    text-align: center;
+   
+}

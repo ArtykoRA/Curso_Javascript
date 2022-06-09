@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <link rel="stylesheet" href="../style.css">
+    <title>JQ 33 remover reemplazar</title>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            
+          /*bien
+            var z=document.getElementById("banner");
+            z.addEventListener("click",cerrarBanner, false);
+            y ahora mejor:*/
+
+            document.getElementById("banner").addEventListener("click",cerrarBanner,false);
+            document.getElementById("foto1").addEventListener("click",cambiar,false);
+
+        })
+        function cambiar(){
+            $("#foto1").replaceWith("He cambiado la foto");
+            $("#foto2").replaceWith("<div id=`tres`> hola otra cosa</div>");
+        }
+       function cerrarBanner(){
+                $("#banner").remove();
+            }
+          
+      
+    </script>
+    
+    <div id="banner">
+        Banner de prueba
+        <p id="cerrar" >Cerrar </p>
+    </div>
+
+    <div id="carrete">
+        <img src="/assets/uno.jpg" alt="foto1" id="foto1"> 
+        <img src="/assets/dos.jpg" alt="foto1" id="foto2">
+        <img src="/assets/tres.jpg" alt="foto1">
+        <img src="/assets/cuatro.jpg" alt="foto1">
+    </div>
+
+</body>
+</html>

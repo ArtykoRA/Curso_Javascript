@@ -33,6 +33,10 @@
         
         var cifra="";
         var acumulado=0;
+        var sumar = false;
+        var restar= false;
+
+
         function display_numeros(numero){
             document.getElementById("display").value = cifra+numero;
             cifra= document.getElementById("display").value;
@@ -40,17 +44,36 @@
 
 
 
-        function sumar(){
-          //alert("sumar pulsaddo");
+        function suma(){
+          //alert("sumar pulsado");
           acumulado = acumulado+ parseInt(cifra);
           document.getElementById("display").value = acumulado;
            cifra="";
+           sumar= true;
         }
+        function resta(){
+            acumulado = acumulado- parseInt(cifra);
+            document.getElementById("display").value = acumulado;
+            cifra="";
+            restar= true;
+
+        }
+
 
         function resultado(){
             //detectar la operacion
+            if(sumar){
+                //mostar lo de la suma 
+                document.getElementById("display").value= acumulado +parseInt(cifra) ;
+            }
+            else if(resta){
+                document.getElementById("display").value= acumulado -parseInt(cifra) ;
+            }
+                // te voy  a dejar a medias porque no me gusta como va el razonamiento; se acumulan las cifras en el display, 
+
         }
 
+       
 
        
     </script>
@@ -63,7 +86,7 @@
         </td>
     </tr>
     <tr>
-        <td width="26%"> <input type="button" value="+" name="button"  class="numero" id="button" onclick="sumar()"></td>
+        <td width="26%"> <input type="button" value="+" name="button"  class="numero" id="button" onclick="suma()"></td>
         <td width="26%"> <input type="button" value="-" name="button2" class="numero" id="button"></td>
         <td width="26%"> <input type="button" value="*" name="button3" class="numero" id="button"></td>
         <td width="26%"> <input type="button" value="/" name="button4" class="numero" id="button"></td>
@@ -89,7 +112,7 @@
     <tr>
         <td><input type="button" name="num0" class="numero" id="num0" value="0" onclick="display_numeros(0)" ></td>
         <td><input type="button" name="coma" class="numero" id="coma" value=","></td>
-        <td><input type="button" name="igual" class="numero" id="igual" value="="></td>
+        <td><input type="button" name="igual" class="numero" id="igual" value="=" onclick="resultado()"></td>
     </tr>
 
 
