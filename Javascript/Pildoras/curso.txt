@@ -55,3 +55,6 @@ vamos al 29-30 con jquery; dicde que miremos el curso de selectores de css
 .text()  no maneja etiquetas html;
 
 33- remove()     y replaceWith()
+
+*Parece que me salto subir unos cuantos ejercicios; ahora voy por 39;
+
